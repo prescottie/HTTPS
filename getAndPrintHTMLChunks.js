@@ -11,7 +11,7 @@ function getAndPrintHTMLChunks () {
     res.setEncoding('utf8');
   let rawData = '';
   res.on('data', (chunk) => {
-    console.log(rawData + chunk + '\n';
+    console.log(rawData + chunk + '\n');
   });
   res.on('end', () => {
 
